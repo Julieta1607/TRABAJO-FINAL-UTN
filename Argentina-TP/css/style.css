@@ -1,0 +1,53 @@
+.azul {
+    border: 1px solid #1b02fc;
+}
+
+.rojo {
+    border: 1px solid #fc0202;
+}
+
+.verde {
+    border: 1px solid #1df800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 20px;
+}
+
+/* Navbar********************************************************************************************************************************************************** */
+
+.nav-link {
+    color: #FFF;
+}
+
+.nav__color {
+    width: 100%;
+    height: 70px;
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    z-index: 100;
+    background: rgb(0, 187, 246);
+    background: linear-gradient(130deg, rgb(0, 187, 246) 0%, rgb(7, 16, 248) 100%);
+}
+
+/* inicio********************************************************************************************************************************************************** */
+
+.titulo {
+    display: flex;
+    align-items: center;
+
+}
+
+/* contacto******************************************************************************************************************************************************** */
