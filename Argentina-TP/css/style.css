@@ -1,53 +1,58 @@
-.azul {
-    border: 1px solid #1b02fc;
-}
-
-.rojo {
-    border: 1px solid #fc0202;
-}
-
-.verde {
-    border: 1px solid #1df800;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-section[id] {
-    scroll-margin-top: 20px;
-}
-
-/* Navbar********************************************************************************************************************************************************** */
-
-.nav-link {
-    color: #FFF;
-}
-
-.nav__color {
-    width: 100%;
-    height: 70px;
-    /* position: fixed; */
-    top: 0;
-    right: 0;
-    z-index: 100;
+.navbar {
     background: rgb(0, 187, 246);
-    background: linear-gradient(130deg, rgb(0, 187, 246) 0%, rgb(7, 16, 248) 100%);
+    background: linear-gradient(130deg, rgb(0, 187, 246) 0%, rgb(34, 40, 196) 100%);
 }
 
-/* inicio********************************************************************************************************************************************************** */
-
-.titulo {
-    display: flex;
-    align-items: center;
-
+/* SLIDER IMAGENES */
+.carousel-item {
+    max-height: 39rem;
 }
 
-/* contacto******************************************************************************************************************************************************** */
+/* COLABORE */
+.btn-success {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* FORMULARIO */
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+#seccion-contacto {
+    background-color: 0099ff;
+    min-height: 500px;
+    position: relative;
+}
+
+#contenedor-formulario {
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* MEDIA QUERIES**************************************************** */
+
+/* PANTALLA SM */
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .colabore-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+
+/* PANTALLA extra SM */
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
