@@ -5,7 +5,12 @@ nav{
 
 .navbar {
     background: rgb(0, 187, 246);
-    background: linear-gradient(130deg, rgb(0, 187, 246) 0%, rgb(34, 40, 196) 100%);
+    background: rgb(0, 187, 246);
+    background:linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    font-family: 'Dosis', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
 
 .nav-link:hover {
@@ -89,7 +94,7 @@ body {
 }
 
 #contacto{
-    background-color: #1b2a4e;
+    background:linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
     min-height: 500px;
     position: relative;
 }
@@ -97,11 +102,14 @@ body {
 /* FOOTER */
 
 .footer {
-    background-color:  #1b2a4e;
-}
+    background:linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    font-family: 'Dosis', sans-serif;
+font-family: 'DynaPuff', cursive;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;}
 
 .titulofooter {
-    color: gray;
+    color: rgb(255, 255, 255);
     font-size: 1.4rem;
     font-weight: 600;
 }
