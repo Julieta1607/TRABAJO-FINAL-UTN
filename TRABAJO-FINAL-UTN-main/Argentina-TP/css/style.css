@@ -1,0 +1,162 @@
+/* HEADER */
+nav{
+    position: fixed;
+}
+
+.navbar {
+    background: rgb(0, 187, 246);
+    background: linear-gradient(130deg, rgb(0, 187, 246) 0%, rgb(34, 40, 196) 100%);
+}
+
+.nav-link:hover {
+    color: #000;
+}
+
+
+.titulosSecciones {
+    color: dodgerblue;
+       font-family: sans-serif;
+       text-align: center;
+       font-weight: 500;
+       font-size: 3.5rem;
+       padding-top: 2em;
+    padding-bottom: 1rem;
+    text-shadow: 4px 3px 6px rgba(71, 71, 71, 0.6);}
+
+/* BODY */
+body {
+    padding-top: 60px;
+}
+
+/* SLIDER IMAGENES */
+.carousel-item {
+    max-height: 39rem;
+}
+
+/* HISTORIA */
+.parrafoHistoria {
+        font-family: sans-serif;
+        font-size: 1.4rem;
+        line-height: 1.6;
+    
+    }
+
+/* CARDS */
+.btn:hover{
+    color: #000;
+}
+.marginBody{
+
+    margin: 4rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 18vw;
+}
+
+.imagenFondo{
+    background-color: rgb( 176,224,230)
+}
+   
+
+
+/* COLABORE */
+.btn-success {
+    border-radius: 20px;
+    flex-wrap: wrap;
+    justify-content: center !important;
+}
+
+/* FORMULARIO */
+#contenedor-formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+#bg-contacto {
+    position: relative;
+    top: -130px;
+}
+
+#contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:  #1b2a4e;
+}
+
+.titulofooter {
+    color: gray;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+
+.bootstrap-icon {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.bootstrap-icon li {
+    list-style: none;
+    display: inline-block;
+    padding: 1.5rem;
+}
+
+.bootstrap-icon li a {
+    background-color: #fff;
+    color: grey;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 6px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    -ms-border-radius: 14px;
+    -o-border-radius: 14px;
+}
+
+
+/* MEDIA QUERIES**************************************************** */
+
+/* PANTALLA SM */
+@media (max-width:768px) {
+    #intro {
+        width: 90% !important;
+    }
+    .colabore-fila {
+        width: 100% !important;
+        text-align: center;
+    }
+    #bg-contacto {
+        position: relative;
+        top: -110px;
+    }
+}
+
+
+/* PANTALLA extra SM */
+@media (max-width:576px) {
+    .icono-wrap{
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+}
+
